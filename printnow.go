@@ -1,9 +1,11 @@
 package go_pkg_test
 
 import (
+	"fmt"
 	"time"
 )
 
 func PrintNow() string {
-	return time.Now().Format("2006-01-02 15:04:05")
+	t := time.Now().Format("2006-01-02 15:04:05")
+	return fmt.Sprintf("v1.0.1 %s", t)
 }
