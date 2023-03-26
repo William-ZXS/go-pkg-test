@@ -1,3 +1,3 @@
-module github.com/William-ZXS/go-pkg-test
+module github.com/william-zxs/go-pkg-test
 
 go 1.19
